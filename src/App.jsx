@@ -56,7 +56,7 @@ function App() {
         <div className="flex flex-col items-center justify-start min-h-screen bg-gray-900">
             <div className="flex justify-center w-full bg-blue-900 shadow-black shadow-lg/1.2 sticky top-0 z-1">
                 <h1 className="text-white px-1 hover:text-amber-200 rounded-2xl">
-                    Compression Algorithms
+                    Huffman Compression Visualiser
                 </h1>
             </div>
             {/* Pass the text and handler to TextInput */}
@@ -122,7 +122,7 @@ function App() {
                 </div>
             )}
             <div className="flex flex-col items-center
-             justify-center w-400 h-150 border-2 border-blue-500 bg-white
+             justify-center max-w-9/10 w-400 h-150 border-2 border-blue-500 bg-white
               mb-10 overflow-hidden rounded-lg">
                 {huffmanTree && <HuffmanTreeVisualizer treeData={huffmanTree}/>}
             </div>

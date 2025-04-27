@@ -54,7 +54,7 @@ function TextInput({text, setText, onHuffmanCompress, setIterative}) {
                              focus:ring-blue-500 focus:ring-2, hover:bg-blue-600"
                         ></input>
                         <label
-                            for="iterative"
+                            htmlFor="iterative"
                             className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300
                             hover:text-blue-800"
                         >Step-by-Step</label>
