@@ -1,13 +1,17 @@
 {
   "name": "compression-tree-visualiser",
-  "private": true,
+  "homepage": "https://radu434.github.io/compression-tree-visualiser/",
+  "description": "A web application for visualizing compression trees.",
+  "author": "Radu Pestesan",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
@@ -17,6 +21,7 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@tailwindcss/vite": "^4.1.4",
     "d3": "^7.9.0",
+    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-d3-tree": "^3.6.6",
     "react-dom": "^19.0.0",
