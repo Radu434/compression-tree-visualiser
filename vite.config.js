@@ -7,6 +7,6 @@ export default defineConfig({
   plugins: [react(),
         tailwindcss(),
   ],
-  base: "/compression-tree-visualiser-huffman-compression",
+  base: "/compression-tree-visualiser/",
 
 })
