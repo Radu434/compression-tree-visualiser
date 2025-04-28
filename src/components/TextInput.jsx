@@ -24,8 +24,8 @@ function TextInput({text, setText, onHuffmanCompress, setIterative}) {
                 name="input"
                 id="input"
                 rows="10"
-                maxLength="4096"
-                placeholder="Insert the text you want to compress. [Max 4096 chars]"
+                maxLength="260416"
+                placeholder="Insert the text you want to compress. [Max 260416 chars]"
                 value={text} // Controlled input
                 onChange={handleInputChange}
                 className="rounded-lg p-4 bg-gray-800 border-2 border-solid
